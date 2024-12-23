@@ -25,5 +25,5 @@ alarmClock.forEach((time) => {
   setTimeout(() => {
     process.stdout.write("\x07");
     console.log(`Timer for ${time}`);
-  }, time * 1000);
+  }, time * 1000); // 10 will be 10000, 3 will 3000, etc...
 });
